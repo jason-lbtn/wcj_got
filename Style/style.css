@@ -1,0 +1,128 @@
+html {
+    margin-top: -1.2vh;
+    margin-left: -1.2vh;
+}
+
+body {
+    background: url(../Pictures/iron_texture.jpg) fixed;
+}
+
+#header {
+    background: url("../Pictures/King's_Landing.jpg") fixed -20vw -25vh;
+    height: 100vh;
+    width: 98.8vw;
+    z-index: 600;
+}
+
+#header_contain {
+    font-family: drakon;
+    color: white;
+    font-size: 20vh;
+    text-shadow: 0 0 1vh brown;
+    position: absolute;
+} #ban_head {
+    background-color: #1D1D1D;
+    width: 98.8vw;
+    height: 8vh;
+    z-index: 500;
+    position: relative;
+    background-position: center;
+    background-size: 50vw 25vh;
+    background-repeat: no-repeat;
+    background-image: url(../Pictures/logoBan.jpg);
+} #ban_button {
+    margin-top: -1vh;
+    margin-left: 1vh;
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50px;
+    transition-duration: 0.2s;
+    z-index: 500;
+}
+
+#ban_button:hover {
+    margin-top: -2vh;
+    margin-left: 0vh;
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50px;
+    transition-duration: 0.1s;
+}
+
+#ban_button:focus {
+    margin-top: -1vh;
+    margin-left: 1vh;
+    height: 10vh;
+    width: 10vh;
+    transition-duration: 0.1s;
+    z-index: 500;
+    position: absolute;
+    cursor: pointer;
+}
+
+#ban_contain {
+    height: 40vh;
+    width: 18vw;
+    background: url(../Pictures/web-design-mrnokhei-albums-243418.jpg);
+    z-index: 100;
+    position: absolute;
+    top: 8vh;
+}
+
+#menu_choice {
+    width: 100%;
+    height: 5vh;
+    font-family: "Game of Thrones";
+    background-color: black;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 3vh;
+    z-index: 400;
+    line-height: 5vh;
+    color: #BFA745;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: 0 0;
+    background-position: right;
+    transition-duration: 0.2s;
+} .story {
+    background-image: url(../Pictures/Sword.png);
+    background-size: 0 0;
+} .city {
+    background-image: url(../Pictures/city.png);
+    background-size: 0 0;
+} .king {
+    background-image: url(../Pictures/king.png);
+    background-size: 0 0;
+}
+
+#menu_choice:hover {
+    background-size: 15vh 15vh;
+    transition-duration: 0.1s;
+    height: 7vh;
+    width: 110%;
+    line-height: 7vh;
+}
+
+#body_contain {
+    z-index: 100;
+    position: static;
+    width: 70vw;
+    margin-left: 18vw;
+    background-color: silver;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+.text_object {
+    display: none;
+}
+
+footer {
+    background-color: rgba(255, 255, 255,0.05);
+    text-align: center;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    color: rgba(255, 255, 255,0.5);
+    width: 204.8vh;
+}

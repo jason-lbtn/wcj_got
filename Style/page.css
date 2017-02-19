@@ -1,0 +1,87 @@
+@font-face {
+    font-family: Game Of Thrones;
+    src: url("Game Of Thrones.ttf");
+}
+
+@font-face {
+    font-family: Drakon;
+    src: url("drakon.ttf");
+}
+
+#body_header {
+    background: url("../Pictures/King's_Landing.jpg") fixed -20vw -25vh;
+    height: 20vh;
+    width: 71vw;
+    z-index: 600;
+}
+
+#body_header_contain {
+    margin-top: -1vh;
+    font-family: drakon;
+    color: white;
+    font-size: 8vh;
+    text-shadow: 0 0 1vh brown;
+    text-align: center;
+    line-height: 20vh;
+}
+
+h1 {
+    font-family: "Game of Thrones";
+    font-size: 3vh;
+}
+
+.origins {
+    background-color: gray;
+    background-image: url();
+}
+
+.localisation {
+    background-color: gray;
+    background-image: url(../Pictures/Carte.jpg);
+}
+
+.economie {
+    background-image: url(../Pictures/eco.jpg);
+    background-position: right;
+}
+
+.politique {
+    background-image: url(../Pictures/Politique2.jpg);
+    background-position: right;
+    background-size: 50%;
+}
+
+.securite {
+    background-image: url(../Pictures/Security.jpg);
+    background-position: right;
+    background-size: 100%;
+    background-position: 0 -90px;
+} .origins {
+    background-image: url(../Pictures/origines.jpg);
+    background-position: right;
+    background-size: 100% 100%;
+    background-position: 0 0px;
+} .religion {
+    background-image: url(../Pictures/rel.jpg);
+    background-position: right;
+    background-size: 100% 225%;
+    background-position: 0 0px;
+}
+
+#text {
+    padding-left: 2vw;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    background-image: url(../Pictures/filter.jpg);
+    background-size: 100vw 80vh;
+    height: 40vh;
+}
+
+#floating {
+    width: 30vh;
+    height: 30vh;
+    float: left;
+    margin-right: 2vw;
+    box-shadow: 0 0 2vh black;
+    border-radius: 100px;
+}
